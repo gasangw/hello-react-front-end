@@ -32,7 +32,15 @@
   from {
     transform: rotate(0deg);
   }
+  /* stylelint-disable-next-line rule-empty-line-before */
   to {
     transform: rotate(360deg);
   }
+}
+
+.greeting {
+  color: rgb(199, 70, 199);
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5rem;
 }
