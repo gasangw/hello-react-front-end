@@ -9,18 +9,18 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    async function fetchRandomGreeting(){
+    async function fetchRandomGreeting() {
       dispatch(fetchMessage());
     }
 
     fetchRandomGreeting();
   }, []);
   return (
-   <BrowserRouter>
-     <Routes>
-       <Route path="/" element={<Greetings /> } />
-     </Routes>
-   </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Greetings />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

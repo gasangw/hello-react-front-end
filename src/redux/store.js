@@ -2,9 +2,9 @@ import { configureStore } from '@reduxjs/toolkit';
 import messages from './messages/messageSlice';
 
 const store = configureStore({
-    reducer: {
-        messages,
-    },
+  reducer: {
+    messages,
+  },
 });
 
 export default store;
