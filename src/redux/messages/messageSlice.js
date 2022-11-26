@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const messageAPI = '';
+const messageAPI = 'http://localhost:3000/messages';
 const initialState = [];
 
 export const fetchMessage = createAsyncThunk('greetings/getGreetingd', async () => {
